@@ -33,12 +33,12 @@ sudo apt install nfs-common
 - Instal NFS client di CentOS dan Fedora:
 
 ```
-    sudo yum install nfs-utils
+sudo yum install nfs-utils
 ```
 
 - Instal NFS client di RHEL 8 :
 ```
-    sudo dnf install nfs-utils
+sudo dnf install nfs-utils
 ```
 
 3. Untuk memasang perangkat USB secara manual gunakan langkah-langkah berikut:
@@ -75,6 +75,7 @@ umount DEVICE_NAME
 ```
 
 - Cara unmound dengan kondisi USB dengan kondisi sistem NFS yang tidak lagi responds atau terjangkau (biasanya time out di jaringan).
+
 ```
 umount -l DIRECTORY
 ```
